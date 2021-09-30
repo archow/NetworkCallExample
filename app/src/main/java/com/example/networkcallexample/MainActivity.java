@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-
+            mNetworkThread.start();
 
         } else {
             mTv.setText("No network connection available.");
